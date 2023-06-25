@@ -65,3 +65,15 @@ while True:
     while threading.active_count() > 200: time.sleep(0.5)
     threading.Thread(target=test).start()
 ```
+
+Notes 
+```python
+# 1. You can update proxies by using ap.init() any time you want!
+# 2. To disable logging just do autoProxy(logging=False)
+# 3. You Can add your own sources like this:
+# ap = autoProxy(logging=True, sources={
+#     'http': [...],
+#     'socks4': [...],
+#     'socks5': [...]
+# })
+```
