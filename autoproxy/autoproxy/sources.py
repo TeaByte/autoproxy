@@ -1,0 +1,65 @@
+sources = {
+    "http": [
+        "http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http",
+        "https://openproxy.space/list/http",
+        "https://proxyspace.pro/http.txt",
+        "https://rootjazz.com/proxies/proxies.txt",
+        "https://spys.me/proxy.txt",
+        "https://proxyhub.me/en/all-http-proxy-list.html",
+        "https://proxy-tools.com/proxy/http",
+        "https://www.proxy-list.download/api/v1/get?type=http",
+        "https://www.proxyscan.io/download?type=http",
+        "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc&protocols=https",
+        'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt'
+        'https://raw.githubusercontent.com/RX4096/proxy-list/main/online/https.txt'
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt'
+        'https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt'
+        'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt'
+        'https://www.proxyscan.io/download?type=https'
+        'https://raw.githubusercontent.com/aslisk/proxyhttps/main/https.txt'
+    ],
+    "socks4": [
+        'http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks', 
+        'https://openproxy.space/list/socks4', 
+        'https://proxyspace.pro/socks4.txt', 
+        'https://www.proxy-list.download/api/v1/get?type=socks4', 
+        'https://proxyhub.me/en/all-socks4-proxy-list.html', 
+        'https://proxylist.geonode.com/api/proxy-list?limit…rt_by=lastChecked&sort_type=desc&protocols=socks4', 
+        'https://www.my-proxy.com/free-socks-4-proxy.html', 
+        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt'
+        'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt'
+        'https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt'
+        'https://raw.githubusercontent.com/RX4096/proxy-list/main/online/socks4.txt'
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt'
+        'https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt'
+        'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt'
+        'https://www.proxy-list.download/api/v1/get?type=socks4'
+        'https://www.proxyscan.io/download?type=socks4'
+        'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt'
+        'https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/socks4.txt'
+        'https://api.openproxylist.xyz/socks4.txt'
+    ],
+    "socks5": [
+        'http://proxysearcher.sourceforge.net/Proxy%20List.php?type=socks',
+        'https://openproxy.space/list/socks5',
+        'https://proxyspace.pro/socks5.txt',
+        'https://www.proxy-list.download/api/v1/get?type=socks5',
+        'https://proxy-tools.com/proxy/socks5',
+        'https://proxyhub.me/en/all-sock5-proxy-list.html',
+        'https://proxylist.geonode.com/api/proxy-list?limit…rt_by=lastChecked&sort_type=desc&protocols=socks5',
+        'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt'
+        'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt'
+        'https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt'
+        'https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt'
+        'https://raw.githubusercontent.com/RX4096/proxy-list/main/online/socks5.txt'
+        'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt'
+        'https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt'
+        'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt'
+        'https://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt'
+        'https://www.proxy-list.download/api/v1/get?type=socks5'
+        'https://www.proxyscan.io/download?type=socks5'
+        'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks5.txt'
+        'https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/socks5.txt'
+        'https://api.openproxylist.xyz/socks5.txt'
+    ]
+}
