@@ -6,10 +6,10 @@ Asynchronous python library that simplify the proxies process
 - Fast ( Asynchronous )
 - Easy to use
 
-## Help
-
-Install requirements
 ```
+⚠️Warring: ( v0.0.2 ) Is not stable 
+Just trying it and the code is not clean ( hard to read ) yet 
+
 pip install autoproxy
 ```
 
