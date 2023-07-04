@@ -1,4 +1,6 @@
-# autoproxy v0.0.2
+
+# autoproxy [![Downloads](https://static.pepy.tech/personalized-badge/autoproxy?period=total&units=international_system&left_color=black&right_color=grey&left_text=Downloads)](https://pepy.tech/project/autoproxy)
+
 Asynchronous python library that simplify the proxies process
 
 ## Features
@@ -8,45 +10,18 @@ Asynchronous python library that simplify the proxies process
 
 ```
 ⚠️Warring: ( v0.0.2 ) Is not stable 
-Just trying it and the code is not clean ( hard to read ) yet 
+Just trying it and the code is not clean ( hard to read )
 
 pip install autoproxy
 ```
 
-Example
-```python
-from autoproxy import autoProxy, Auto
-import requests
-
-# Intialize AutoProxy
-ap = autoProxy(logging=True)
-ap.init()
-
-# Auto Decorator
-# proxy_type = ( all, socks4, socks5, socks4 )
-@Auto(proxy_type="all")
-def test(proxies):
-    try:
-        req = requests.get(
-            'https://httpbin.org/ip', 
-            proxies=proxies, 
-            timeout=10
-        )
-        print(req.text)
-    except requests.exceptions.RequestException as e:
-        print('Bad Proxy')
-
-while True:
-    test()
-```
-
-Lets make it faster 
+### Example
 ```python
 from autoproxy import autoProxy, Auto
 import requests, threading, time
 
 # Intialize AutoProxy
-ap = autoProxy(logging=True)
+ap = autoProxy(logging=False)
 ap.init()
 
 @Auto(proxy_type="all")
@@ -66,10 +41,11 @@ while True:
     threading.Thread(target=test).start()
 ```
 
-Notes 
+
+#### Notes 
 ```python
 # 1. You can update proxies by using ap.init() any time you want!
-# 2. To disable logging just do autoProxy(logging=False)
+# 2. To enable logging just do autoProxy(logging=True)
 # 3. You Can add your own sources like this:
 # ap = autoProxy(logging=True, sources={
 #     'http': [...],
